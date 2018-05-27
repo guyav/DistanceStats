@@ -8,7 +8,7 @@ Currently, the program supports the following methods:
 * **[Agglomerative Hierarchical Clustering (AGNES)](https://en.wikipedia.org/wiki/Hierarchical_clustering):** The program clusters the places. The first two places to be joined to create a cluster, are considered as the most non-remote places. The last place to be joined to a cluster is considered to be the most remote place. The distance between clusters can be calculated using one of four possible metrics:
   * **[Single Link](https://en.wikipedia.org/wiki/Single-linkage_clustering)**: The distance between cluster *A* and cluster *B* is defined as the **shortest** distance of any place in cluster *A* to any place in cluster *B*. This is actually identical to the "Simple Distance Calculation" method.
   * **[Complete Link](https://en.wikipedia.org/wiki/Complete-linkage_clustering):** The distance between cluster *A* and cluster *B* is defined as the **longest** distance of any place in cluster *A* to any place in cluster *B*.
-  * **[Average Link (UPGMA)](https://en.wikipedia.org/wiki/UPGMA):** The distance between the clusters is defined as the average of all the distances between all pairs of places in each cluster.
+  * **[Average Link (WPGMA)](https://en.wikipedia.org/wiki/WPGMA):** The distance between the clusters is defined as the average of all the distances between all pairs of places in each cluster.
   * **Centroid To Centroid:** The distance between the clusters is defined as the distance between the centroids of each cluster.
 
 ## Requirements
